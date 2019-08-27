@@ -229,14 +229,14 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: ityouknow
+    username: wudaxia
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: ityouknow
+    owner: wudaxia
     repo: blog-comments
     oauth:
-        client_id: 61bfc53d957e74e78f8f
-        client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+        client_id: 0c736fbc49e7e559e78d
+        client_secret: 20b2edf4f989fc735eaa86a535651b2b40950a05
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: wudaxia

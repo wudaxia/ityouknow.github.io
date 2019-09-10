@@ -1,20 +1,11 @@
----
-layout: page
-title: nodeJs系列文章
-titlebar: nodejs
-subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; node那些事
-menu: nodejs
-css: ['blog-page.css']
-permalink: /it
----
-
 <div class="row">
 
     <div class="col-md-12">
 
+        <!-- Blog list -->
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='nodejs' %}
+                {% if post.category=='vuejs' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
@@ -24,7 +15,7 @@ permalink: /it
                 </li>
                 {% endif %}
             {% endfor %}
-        </ul> 
+        </ul>
 
         <!-- Pagination -->
         {% include pagination.html %}
@@ -33,6 +24,7 @@ permalink: /it
        <div class="comment">
          {% include comments.html %}
        </div>
+
     </div>
 
 </div>
